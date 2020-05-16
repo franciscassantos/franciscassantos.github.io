@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon.ico" />
+    <link href="./fontawesome-free-5.13.0-web/css/all.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="./projeto-pesquisa.js"></script>
+
+    <title>Maria Francisca - Pesquisa</title>
+  </head>
+  <body>
+    <section id="barra-lateral">
+      <a href="#" onclick="toggleMenuPesquisa()"
+        ><img
+          id="botão-menu-responsive"
+          src="./imagens/menu_responsive/menu.png"
+      /></a>
+      <div id="menu-lateral">
+        <h1 class="top">
+          MARIA <br />
+          FRANCISCA
+        </h1>
+        <a href="./index.html " class="botao">sobre mim</a>
+        <a href="./projects.html" class="botao">projetos</a>
+        <a href="./contactos.html" class="botao">contactos</a>
+        <a href="./search.html" class="botao-active">
+          <i class="fas fa-search active"></i
+        ></a>
+        <div class="logos">
+          <a href="https://www.pinterest.pt/fransantos1600/"
+            ><i class="fab fa-pinterest fa-2x"></i
+          ></a>
+          <a href="https://www.instagram.com/francisca1600/">
+            <i class="fab fa-instagram-square fa-2x"></i
+          ></a>
+          <a href="https://www.facebook.com/francisca.santos.14224"
+            ><i class="fab fa-facebook fa-2x"></i
+          ></a>
+        </div>
+        <footer class="contact-info">
+          <a href="mailto:franciscasantos@ua.pt">
+            <p>
+              franciscasantos@ua.pt
+            </p></a
+          >
+          <p>910604414</p>
+        </footer>
+      </div>
+    </section>
+    <div id="pesquisa">
+      <div class="searchHeader">
+        <input
+          onkeyup="pesquisa_projeto()"
+          type="text"
+          name="search"
+          placeholder="encontre um projeto por nome, tipo, ano"
+          id="searchbar"
+        />
+      </div>
+
+      <ol id="list">
+        <a href="./projects-coverme.html" class="projeto-pesquisa">
+          <h1>COVER ME</h1>
+          <h3>
+            Projeto em Design III - 2020 <br />
+            Gráfico & Vídeo
+          </h3>
+          <img src="./imagens/COVER ME/cover.png" />
+        </a>
+
+        <a href="./projects-loop.html" class="projeto-pesquisa">
+          <h1>LOOP</h1>
+          <h3>
+            Projeto em Design II - 2019 <br />
+            Produto & Gráfico
+          </h3>
+          <img src="./imagens/LOOP/loop_barra.png" />
+        </a>
+
+        <a href="./projects-nameless.html" class="projeto-pesquisa">
+          <h1>NAMELESS</h1>
+          <h3>
+            Estética - 2019<br />
+            Gráfico & Conceptual
+          </h3>
+          <img src="./imagens/passarinhos/passaro_1.png"
+        /></a>
+        <a href="./projects-overagain.html" class="projeto-pesquisa">
+          <h1>OVER AGAIN</h1>
+          <h3>
+            MAC - 2018
+            <br />
+            Gráfico & Conceptual
+          </h3>
+          <img src="./imagens/OVER AGAIN/over_again_barra.png" />
+        </a>
+      </ol>
+    </div>
+    <script src="./projeto-pesquisa.js"></script>
+  </body>
+</html>
